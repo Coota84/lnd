@@ -1,0 +1,8 @@
+$ mkdir ~/app-container
+$ mkdir ~/app-container/.bitcoin
+regtest=1
+daemon=1
+txindex=1
+rpcauth=<rpc auth username and password>
+zmqpubrawblock=tcp://127.0.0.1:28332
+zmqpubrawtx=tcp://127.0.0.1:28333
